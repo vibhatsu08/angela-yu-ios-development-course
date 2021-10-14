@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5HL-2n-aKg">
-                                <rect key="frame" x="72" y="313" width="270" height="270"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="oXV-Da-6ci">
+                                <rect key="frame" x="60" y="287" width="270" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -29,4 +29,7 @@
             <point key="canvasLocation" x="73.84615384615384" y="97.393364928909946"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="diamond" width="343.33334350585938" height="251.33332824707031"/>
+    </resources>
 </document>
