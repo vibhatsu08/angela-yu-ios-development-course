@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var diceImageView2: UIImageView!
     
     var leftDiceNumber = 1
-    var rightDiceNumber = 5
+    var rightDiceNumber = 1
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         let diceArray = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
