@@ -21,12 +21,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func heightSliderChanged(_ sender: UISlider) {
-        var heightValue = Float(sender.value)
-        heightValueLabel.text = String(NSString(format: "%.2f", heightValue))
+        var heightValue = String(format: "%.2f", sender.value)
+        heightValueLabel.text = "\(heightValue) m"
     }
     @IBAction func weightSliderChanged(_ sender: UISlider) {
         var weightValue = Int(sender.value)
-        weightValueLabel.text = String(weightValue)
+        weightValueLabel.text = "\(weightValue) kg"
     }
     
 
