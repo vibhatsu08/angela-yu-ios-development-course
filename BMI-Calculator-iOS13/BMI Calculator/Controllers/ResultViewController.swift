@@ -10,15 +10,11 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        bmiLabel.text = bmiValue
     }
 
     @IBAction func recalculatePressed(_ sender: UIButton) {
-        
+        self.dismiss(animated: true, completion: nil)
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToResult"{
-            let destinationVC = segue.destination
-        }
-    }
+
 }
